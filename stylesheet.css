@@ -1,0 +1,83 @@
+body {
+    background-image: url("http://api.ning.com/files/NfZBQ8g66NRNsL8JEL5RDsGxpA11Wj1o94szpEjVIdez92WgcAjP0SyYcXyyFG1Yovbwly3dERoSqpqjQ0P1N6ztQFt3UlHD/FreeBackgroundImagesCss.jpg");
+	background-size: cover;
+	margin:0;
+}
+
+h1{
+	color:red;
+	text-align:center;
+	font-family:arial, serif;
+	height:300px;
+	line-height:300px;
+	border:1px solid black;
+	border-radius: 100px;
+	background-image: url("https://ssagga.files.wordpress.com/2012/10/3d-space_bfadfb1b.jpg");
+}
+
+h2{
+	text-align:center;
+	color:red;
+	text-decoration : underline;
+	border:1px solid red;
+	border-radius: 100px;
+	background-image: url("https://ssagga.files.wordpress.com/2012/10/3d-space_bfadfb1b.jpg");
+	width:220px;
+	height:50px;
+	line-height:50px;
+	font-size:30px;
+	margin:auto;
+}
+
+section{
+	color:white;
+}
+
+.couleur{
+	color:white;
+}
+#nav ul{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+#nav li{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	height 40px;
+	border-bottom:5px solid#888;
+	display: inline-block;
+    margin-right: -4px;
+}
+
+#nav a{
+	text-decoration:none;
+	color: #fff;
+	display: block;
+	transition: .3s background-color;
+}
+
+#nav a:hover{
+	background-color:red;
+	
+}
+#nav a.active{
+	background-color:#fff;
+	color: #444;
+	cursor: default;
+}
+@media screen and (min-width: 600px) {
+  #nav li {
+    width: 180px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+.couleurnav{
+	font-family:'arial';
+}
